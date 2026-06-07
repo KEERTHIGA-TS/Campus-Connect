@@ -1,21 +1,62 @@
-# Backend
+# ─────────────────────────────────────────────
+# Java / Maven (Backend)
+# ─────────────────────────────────────────────
 backend/target/
-backend/uploads/
+backend/.mvn/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
 
-# Frontend
+# ─────────────────────────────────────────────
+# Node / React (Frontend)
+# ─────────────────────────────────────────────
 frontend/node_modules/
 frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
 
-# IDE
+# ─────────────────────────────────────────────
+# Environment & Secrets
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ─────────────────────────────────────────────
+# Uploads (user uploaded files)
+# ─────────────────────────────────────────────
+uploads/
+
+# ─────────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────────
+.docker/
+
+# ─────────────────────────────────────────────
+# IDEs
+# ─────────────────────────────────────────────
 .idea/
+*.iml
 .vscode/
+*.swp
+*.swo
 
+# ─────────────────────────────────────────────
 # OS
+# ─────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
 
+# ─────────────────────────────────────────────
 # Logs
+# ─────────────────────────────────────────────
 *.log
-
-# Environment
-.env
+logs/
