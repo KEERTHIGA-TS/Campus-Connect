@@ -55,22 +55,22 @@ A full-stack social media platform built for college communities — enabling st
 # 📸 Screenshots
 
 ## Home / Feed Page
-![Home Page](screenshots/home.png)
+![Home Page](Screenshots/home.png)
 
 ## Register Page
-![Register](screenshots/register.png)
+![Register](Screenshots/register.png)
 
 ## Login Page
-![Login](screenshots/login.png)
+![Login](Screenshots/login.png)
 
 ## Create Post Page
-![Create Post](screenshots/create-post.png)
+![Create Post](Screenshots/create-post.png)
 
 ## Post Detail Page
-![Post Detail](screenshots/post-detail.png)
+![Post Detail](Screenshots/post-detail.png)
 
 ## Profile Page
-![Profile](screenshots/profile.png)
+![Profile](Screenshots/profile.png)
 
 ---
 
