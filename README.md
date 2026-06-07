@@ -50,6 +50,9 @@ A full-stack social media platform built for college communities — enabling st
 🔗 **Current Live URL (may change):**  
 👉 https://unify-catsup-figure.ngrok-free.dev
 
+# 🎬 Demo Video
+👉 [Watch Demo on Google Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1XWiC6HX5jzGWjRqdsIU6Ea2BKWURWac6/view?usp=drive_link))
+
 ---
 
 # 📸 Screenshots
