@@ -1,0 +1,33 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: campus-postgres
+    environment:
+      POSTGRES_DB: campus_connect
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: keerthi29
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: campus-backend
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+    volumes:
+      - ./uploads:/app/uploads
+
+  frontend:
+    build: ./frontend
+    container_name: campus-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
