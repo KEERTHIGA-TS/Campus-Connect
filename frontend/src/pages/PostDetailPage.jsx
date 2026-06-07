@@ -309,7 +309,7 @@ export default function PostDetailPage() {
                     </Link>
                     <div className="flex items-center gap-2">
                       <span className="text-xs text-gray-400">
-                        {formatDistanceToNow(new Date(comment.createdAt), { addSuffix: true })}
+                        {formatDistanceToNow(new Date(comment.createdAt + 'Z'), { addSuffix: true })}
                       </span>
                       {user?.userId === comment.userId && (
                         <button
